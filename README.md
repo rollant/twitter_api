@@ -1,10 +1,9 @@
-#Installation
 ## Prerequisites
 You will need [X developer account](https://developer.x.com/en/portal/petition/essential/basic-info). Once set up, API Bearer token can be generated under Projects and Apps -> {project name} -> {app name} -> Keys and tokens. Once set up, Bearer token must be placed in `api_key.json` file. Example file can be found under `api_key.json.in`
 
 IMPORTANT: Do not publish Bearer token on Github or other public spaces.
 
-## Installation process
+## Local setup
   1. Create virtualenv
 ```
 $ virtualenv -p "`which python3.11`" .venv 
